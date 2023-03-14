@@ -29,6 +29,8 @@ class AnimalsRecyclerAdapter(private val names: List<AnimalData>, val activity: 
         holder.largeTextView.text = names[position].name
         holder.smallTextView.text = names[position].descriptionShort
         holder.itemView.setBackgroundResource(names[position].imageId)
+        holder.largeTextView.setTextColor(names[position].textColor)
+        holder.smallTextView.setTextColor(names[position].textColor)
 
         holder.button.setOnClickListener {
             activity.startActivity(names[position].descriptionLong)
