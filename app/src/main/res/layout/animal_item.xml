@@ -11,7 +11,7 @@
         android:id="@+id/textViewLarge"
         android:layout_width="104dp"
         android:layout_height="37dp"
-        android:text="qwe"
+        tools:text="qwe"
         android:textAppearance="?android:attr/textAppearanceLarge"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -22,7 +22,7 @@
         android:id="@+id/textViewSmall"
         android:layout_width="104dp"
         android:layout_height="27dp"
-        android:text="qwe"
+        tools:text="qwe"
         android:textAppearance="?android:attr/textAppearanceSmall"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewLarge"
@@ -33,7 +33,7 @@
         android:id="@+id/button"
         android:layout_width="168dp"
         android:layout_height="49dp"
-        android:text="Button"
+        android:text="@string/details"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSmall"
@@ -50,7 +50,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        android:contentDescription="@string/typical_image_of_animal"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
