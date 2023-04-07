@@ -33,13 +33,14 @@
         android:id="@+id/button"
         android:layout_width="168dp"
         android:layout_height="49dp"
-        android:text="@string/details"
+        android:text="Details"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewSmall"
         app:layout_constraintVertical_bias="0.0"
         tools:layout_conversion_absoluteHeight="48dp"
-        tools:layout_conversion_absoluteWidth="201dp" />
+        tools:layout_conversion_absoluteWidth="201dp"
+        />
 
     <ImageView
         android:id="@+id/imageView"
@@ -51,7 +52,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        android:contentDescription="@string/typical_image_of_animal"/>
-
-
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
